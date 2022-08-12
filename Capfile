@@ -20,7 +20,7 @@ require 'capistrano/ssh_doctor'
 install_plugin Capistrano::SCM::Git
 
 set :rbenv_type, :user
-set :rbenv_ruby, '3.1.2'
+set :rbenv_ruby, '2.6.10'
 
 # Include tasks from other gems included in your Gemfile
 #

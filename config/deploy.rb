@@ -2,7 +2,7 @@
 lock "~> 3.17.1"
 
 set :application, "waiting"
-set :repo_url, "git@github.com:Shakhboz01/waiting.git"
+set :repo_url, "https://github.com/Shakhboz01/waiting.git"
 
 set :deploy_to, "/home/deploy/#{fetch :application}"
 
