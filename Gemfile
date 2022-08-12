@@ -51,7 +51,7 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
+gem 'bundler', '~> 2.3.17'
 # capistrano
 gem 'capistrano', '~> 3.11'
 gem 'capistrano-ssh-doctor', '~> 1.0', git: 'https://github.com/capistrano-plugins/capistrano-ssh-doctor.git'
